@@ -1,0 +1,6 @@
+<resources>
+    <color name="agenda_background">#FFFFFF</color>
+    <color name="agenda_text">#17191C</color>
+    <color name="agenda_secondary">#6B7280</color>
+    <color name="agenda_border">#E5E7EB</color>
+</resources>
