@@ -27,6 +27,11 @@ jobs:
 
       - name: Make gradlew executable
         run: chmod +x ./gradlew
+      
+      - name: Find invalid placeholder
+        run: |
+          echo "Searching project for {str}..."
+          grep -RFn --exclude-dir=.git --exclude-dir=.gradle --exclude-dir=build '{str}' . || true
 
       - name: Build APK
         run: ./gradlew assembleDebug
