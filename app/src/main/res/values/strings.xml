@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Agenda</string>
     <string name="widget_name">Agenda</string>
-    <string name="widget_description">See today's activities directly on your home screen.</string>
+    <string name="widget_description">See today&apos;s activities directly on your home screen.</string>
 </resources>
